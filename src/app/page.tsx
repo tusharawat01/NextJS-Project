@@ -5,6 +5,7 @@ import Webiners from "@/components/Webiners";
 import WelcomePage from "@/components/WelcomePage";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Instructors from "@/components/Instructors"
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <TestimonialCards />
       <Webiners />
       <Instructors />
+      <Footer />
     </main>
 
   );
