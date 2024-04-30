@@ -32,11 +32,11 @@ function FeaturedCourses() {
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Learn with the best</p>
                 </div>
             </div>
-            <div className="mt-10">
+            <div className="mt-10 p-10">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
                     {feaaturedCourses.map((course: Course) => (
                         <div key={course.id} className="flex justify-center">
-                            <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
+                            <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm p-5">
                                 <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
                                     <p>{course.title}</p>
                                     <p>{course.description}</p>
