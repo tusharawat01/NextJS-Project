@@ -4,6 +4,7 @@ import TestimonialCards from "@/components/TestimonialCards";
 import Webiners from "@/components/Webiners";
 import WelcomePage from "@/components/WelcomePage";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import Instructors from "@/components/Instructors"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <WhyChooseUs />
       <TestimonialCards />
       <Webiners />
+      <Instructors />
     </main>
 
   );
