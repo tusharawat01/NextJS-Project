@@ -1,8 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Music Academy Project
+
+This is a Next.js project bootstrapped with `create-next-app`, aimed at creating a music academy website.
+
+## Live Link
+
+The live version of this project can be accessed at [https://music-academy01.netlify.app](https://music-academy01.netlify.app/).
 
 ## Getting Started
 
-First, run the development server:
+To start the development server, run the following command in your terminal:
 
 ```bash
 npm run dev
@@ -14,23 +20,30 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
+
+This project utilizes the following technologies:
+
+1. [Next.js](https://nextjs.org/docs) - Next.js is used for server-side rendering and routing.
+2. [Inter Font](https://nextjs.org/docs/basic-features/font-optimization) - Inter, a custom Google Font, is automatically optimized and loaded using next/font.
+3. [Aceternity UI](https://ui.aceternity.com/) - Prebuilt components from Aceternity UI are used for faster development.
+4. [Tailwind CSS](https://tailwindcss.com/) - Tailwind CSS is used for styling and utility classes.
 
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - An interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+Follow these steps to set up the project locally:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone the repository: `git clone https://github.com/yourusername/project-name.git`
+2. Navigate to the project directory: `cd project-name`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
