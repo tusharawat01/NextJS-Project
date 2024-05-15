@@ -43,7 +43,7 @@ To learn more about Next.js, take a look at the following resources:
 
 Follow these steps to set up the project locally:
 
-1. Clone the repository: `git clone https://github.com/yourusername/project-name.git`
+1. Clone the repository: `https://github.com/tusharawat01/NextJS-Project.git`
 2. Navigate to the project directory: `cd project-name`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
